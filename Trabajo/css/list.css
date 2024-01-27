@@ -1,0 +1,42 @@
+/***********************************************************************************/
+/*                        Hoja de estilo de List.html                              */
+/*                        Author: Rafael Moncayo                                   */
+/*                        version: 1.0                                             */
+/*                        fecha: enero 2024                                        */
+/*                        Comments: Ejercicios de List                             */
+/***********************************************************************************/
+
+@font-face {
+  font-family: Texto;
+  src: url(../fonts/SweetieBubbleGum-Regular.ttf);
+}
+
+.table {
+  border-spacing: 0 15px;
+}
+
+h1{
+  font-family: Texto; 
+  font-size: 40px;
+  text-align: center;
+  color: rgb(245, 245, 245);
+  text-decoration: underline;
+}
+
+i {
+  font-size: 1rem !important;
+}
+
+.table tr {
+  border-radius: 20px;
+}
+
+tr td:nth-child(n+5),
+tr th:nth-child(n+5) {
+  border-radius: 0 .625rem .625rem 0;
+}
+
+tr td:nth-child(1),
+tr th:nth-child(1) {
+  border-radius: .625rem 0 0 .625rem;
+}
